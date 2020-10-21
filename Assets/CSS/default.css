@@ -1,0 +1,189 @@
+/*
+
+     SALARUZ X THEME CSS
+       by: EMREYIGITCBC
+       v1.0
+*/
+/* PAGE DEFAULTS START */
+html {
+	margin: 0;
+}
+
+body {
+	background-color: #8ADAF0;
+	color: #000;
+	font-size: 16px;
+	font-family: 'Helvetica', Arial;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+.title {
+	margin: 30px;
+}
+p {
+	font-size: 16px;
+}
+/* PAGE DEFAULTS END */
+/* CUSTOMIZED ELEMENTS START */
+div#page {
+	padding: 10px;
+}
+
+h3.title {
+	color: #CED7D9;
+}
+
+div#header {
+	width: 100%;
+	background-color: #568693;
+	pardding: 20px;
+}
+/* CUSTOMIZED ELEMENTS END */
+/* TABLE START */
+.table {
+	width: 100%;
+	display: table;
+	position: center;
+	float: center;
+}
+
+.table div {
+	display: table-row;
+}
+
+.table div div {
+	display: table-cell;
+	text-align: center;
+	padding: 15px;
+}
+
+.table div div.th {
+	font-weight: bold;
+	text-align: center;
+	position: center;
+	float: center;
+	padding: 15px;
+}
+/* TABLE END */
+
+/* ELEMENTS START*/
+select {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-webkit-padding-end: 20px;
+	-moz-padding-end: 20px;
+	-webkit-padding-start: 2px;
+	-moz-padding-start: 2px;
+	background-color: #c0c0c0;
+	background-image: url(../Images/select-arrow.png),
+		-webkit-linear-gradient(top, #E5E5E5, #F4F4F4);
+	background-image: url(../Images/select-arrow.png),
+		-moz-linear-gradient(top, #E5E5E5, #F4F4F4);
+	background-image: url(../Images/select-arrow.png),
+		-ms-linear-gradient(top, #E5E5E5, #F4F4F4);
+	background-image: url(../Images/select-arrow.png),
+		-o-linear-gradient(top, #E5E5E5, #F4F4F4);
+	background-image: url(../Images/select-arrow.png),
+		linear-gradient(to bottom, #E5E5E5, #F4F4F4);
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: 1px solid #AAA;
+	border-radius: 2px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	color: #555;
+	font-size: inherit;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+input[type="text"] {
+	padding: 5px;
+	border-width: 0px;
+}
+/* ELEMENTS END */
+body.preloader-site {
+	overflow: hidden;
+}
+
+.preloader-wrapper {
+	height: 100%;
+	width: 100%;
+	background: #008079;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 120px;
+}
+
+.loader {
+	border: 16px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 85px;
+	height: 85px;
+	animation: spin 2s linear infinite;
+}
+
+@
+keyframes spin { 0% {
+	transform: rotate(0deg);
+}
+
+100%
+{
+transform
+:
+ 
+rotate
+(360deg);
+ 
+}
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-weight: bold;
+	text-align: center;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+	font-weight: bold;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+	font-weight: bold;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	font-weight: bold;
+}
